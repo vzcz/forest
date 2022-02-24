@@ -1,0 +1,47 @@
+body{
+    background-color: #203239;
+    display: grid;
+    font-family: 'Rubik', sans-serif;
+}
+
+form{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    color: #141E27;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    grid-area: manu;
+
+}
+form h2{
+    font-size: 23px;
+}
+form div{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    margin-left: 46px;
+}
+form input{
+    border: none;
+    outline: none;
+    height: 30px;
+}
+form button{
+    width: 200px;
+    border-radius: 10px;
+    background-color: #203239;
+    border:none;
+    color:#fff;
+    height: 30px;
+    margin-top: 20px;
+
+}
+form label {
+margin-right: 124px;
+    font-size: 14px;
+}

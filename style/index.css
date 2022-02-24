@@ -1,0 +1,44 @@
+body{
+    background: url("../image/22.jpg");
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.home{
+
+
+    top:50%;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    color: cyan;
+    font-family: 'Shizuru', cursive;
+    transform: translateY(-50%);
+
+}
+.login{
+    background: transparent;
+    border: 1px solid #fff;
+    color: cyan;
+    width: 70px;
+    height: 25px;
+    font-family: 'Shizuru', cursive;
+    left: 48%;
+    top:5px;
+    position: relative;
+}
+.home form input{
+    background: transparent;
+    border: 1px solid #fff;
+    color: cyan;
+    right: 43.7%;
+    bottom:5px;
+    position: relative;
+    margin: 2px;
+}
+
+.notfound{
+    text-align: center;
+    color:cyan;
+    background-color: brown;
+}
