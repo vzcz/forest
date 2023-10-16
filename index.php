@@ -6,7 +6,7 @@ if(isset($_GET['search'])) {
     if ($_GET['search'] == 'admin'){
     ?><p class="notfound">Go <?php echo base64_encode($config['app_url'] . '/'  . $_GET['search']);?> </p> <?php
     }elseif (preg_match("/(shadow|passwd|nc|wget|environ|group|cmdline|access_log|ls)+/i", $_GET['search'])){
-        ?><p class="notfound">FUCK YOU <?php echo $_GET['search'];?></p><?php
+        ?><p class="notfound">Hello <?php echo $_GET['search'];?></p><?php
     /*}elseif($_GET['search'] == null){
        ?><p class="notfound">NOT FOUND: <?php echo $_GET['search'];?></p><?php*/
     }elseif($_GET['search'] != null){
